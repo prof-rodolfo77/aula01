@@ -1,9 +1,67 @@
-Mais utilizadas em 2020
-https://classpert.com/pt-BR/blog/linguagens-de-programacao-mais-usadas
-Mais utilizadas até 2021
-https://programadoresbrasil.com.br/2022/01/pesquisa-github-revela-10-linguagens-programacao-mais-usadas-2021/
+#print("Aula Introdução ao Python")
+print ("Esta é uma aula de programação")
+#print ("Vimos que existem várias linguagens,")
+#print ("como")
+#print ("a linguagem Java!")
+print ("A linguagem que estamos utilizando é")
+print ("a linguagem Python!")
+print ("Nossa Aula é na")
+#print ("Infinity")
+#print ("também conhecida como")
+print ("Infinity School.")
+print ("Bons códigos!")
+# print ("Esta Linha será um comentário em breve!")
 
-Variáveis e Operadores
-int = inteiro - 7. 10, 15
-string = valores que precisamos escrever (palavras, frases...) - "Letícia"
-float (números com vírgulas) - 1.8 
+nome = "Letícia"
+sobrenome = "Rodrigues"
+print (nome,sobrenome)
+print (nome + " " + sobrenome)
+
+nome = "Letícia"
+print ("meu nome é", nome, "e esse é o meu primeiro print em tela")
+
+cálculo = 10 * 50
+print (cálculo)
+print (10 * 50)
+
+
+print ("números 8, 9 e 7")
+print ("soma", 8 + 9 + 7)
+print ("média", 24 / 3)
+
+num01 = 8
+num02 = 9
+num03 = 7
+soma = num01 + num02 + num03
+
+print ("média", soma / 3)
+
+nome = input("digite seu nome ")
+sobrenome = input("digite seu sobrenome ")
+print (nome, sobrenome)
+
+num01 = int(input("digite um número inteiro "))
+num02 = int(input("digite um número inteiro novamente "))
+soma = num01 + num02
+print (soma)
+
+print ("Média das notas informadas")
+nota01 = float(input("digite a primeira nota "))
+nota02 = float(input("digite a segunda nota "))
+nota03 = float(input("digite a terceira nota "))
+nota04 = float(input("digite a quarta nota "))
+resultado = nota01 + nota02 + nota03 + nota04
+print ("A soma das suas notas é", resultado)
+média = resultado / 4
+print ("Sua média é", média)
+
+num01 = float(input("Digite o primeiro número: "))
+num02 = float(input("Digite o segundo número: "))
+adicao = num01 + num02
+print ("adição", adicao)
+subtracao = num01 - num02
+print ("subtraçaõ", subtracao)
+multiplicacao = num01 * num02
+print ("multiplicação", multiplicacao)
+divisao = num01 / num02
+print ("divisão", divisao)
